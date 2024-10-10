@@ -1,4 +1,4 @@
-/// this class to make song information like id
+/// this class to make song information like id title author songLink
 class Song {
     constructor({ id, title, author, songLink }) {
         this.id = id;

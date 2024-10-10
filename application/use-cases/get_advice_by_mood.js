@@ -1,17 +1,15 @@
+const Meditation = require("../../domain/entities/meditation")
 const UseCaseInterFace = require('../interfaces/use_case_interface')
 
-
 class GetAdviceByMood extends UseCaseInterFace {
-    constructor(quotesRepository) {
+    constructor(adviceRepository) {
         super()
-        this.quotesRepository = quotesRepository
+        this.adviceRepository = adviceRepository
     }
 
     async execute(mood) {
-        // take the quote form api
-        const quoteData = await this.quotesRepository.GetAdviceByMood()
-        // and return the quote to Meditation
-        return new Meditation({ text: quoteData })
+        const adviceData = await this.adviceRepository.getAdviceByMood(mood)
+        return new Meditation({text: adviceData})
     }
 }
 

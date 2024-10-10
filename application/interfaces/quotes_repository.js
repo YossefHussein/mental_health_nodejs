@@ -1,10 +1,14 @@
+// this for get quotes or advice
 class QuotesRepository {
-    async GetDailyQuotes() {
-        throw new Error('Method not implement')
+    async getDailyQuotes() {
+        // if error give me the error
+        throw new Error('Method not implement the quotes')
     }
-    async getAdviceByMood() {
-        throw new Error('Method not implement')
+    async getAdviceByMood(mood) {
+        // if error give me the error
+        throw new Error('Method not implement the mood')
     }
 }
 
+// export the interface
 module.exports = QuotesRepository
