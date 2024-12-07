@@ -17,13 +17,12 @@ class GeminiService extends QuotesRepository {
   async getAdviceByMood(mood) {
     // this is prompt of the gemini
     const prompt = `give the current mood of the user, provide an appropriate meditation advice or mental health exercise
-                    So the mood is ${mood}: 
-                     note don't "dont return loop advice mean dont send same advice and don't return advice more then one and don't return same advice dont send"
-}"`;
+                     So the mood is ${mood}: 
+                     note don't return loop advice mean don't send same advice and don't return advice more then one and don't return same advice don't send"`;
 
     /**
      * 
-     *                            ;
+     *                     
 
      *    {
                             "advice": "specific advice or exercises based on the user"s mood",
@@ -45,7 +44,7 @@ class GeminiService extends QuotesRepository {
     return response.text();
   }
 
-  // it"s like the [getAdviceByMood] but without mood
+  // it's like the [getAdviceByMood] but without mood
   // get the advice by gemini
   async getDailyQuotes() {
     const prompt = `Please provide three inspirational quotes for meditation, one for each part of the day: morning, noon, and evening. Respond in the following format:

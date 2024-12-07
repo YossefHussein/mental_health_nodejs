@@ -4,7 +4,8 @@
   "description": "this is backend and part for mental health app, this app programming with flutter",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon ./app.js"
+    "dev": "nodemon ./app.js",
+    "start": "node ./app.js"
   },
   "author": "",
   "license": "ISC",
