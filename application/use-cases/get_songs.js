@@ -20,6 +20,9 @@ class GetSongs extends UseCaseInterFace {
           title: song.title,
           author: song.author,
           songLink: song.songlink,
+          typeSong: song.typesong,
+          colorTypeOfSong: song.colortypeofsong,
+          thumbnail: song.thumbnail,
         })
     );
   }

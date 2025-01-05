@@ -12,7 +12,7 @@ class GetDailyQuotes extends UseCaseInterFace {
     // take the quote form api
     const quoteData = await this.quotesRepository.getDailyQuotes();
     // and return the quote to Meditation
-    return new Meditation({ text: quoteData });
+    return new Meditation(quoteData);
   }
 }
 

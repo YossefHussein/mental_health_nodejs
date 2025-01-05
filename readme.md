@@ -1,4 +1,4 @@
-### Mental_health_nodejs
+### mental_health_nodejs
 
 this is backend and part for mental health app, this app programming with flutter
 
@@ -8,3 +8,4 @@ some technology
 * postgresSQL
 * express
 * Gemini
+

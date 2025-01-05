@@ -2,6 +2,10 @@
 const express = require("express");
 // using the express
 const app = express();
+// import cors for security
+var cors = require("cors");
+// using cors
+app.use(cors());
 // import song routing
 const songRouter = require("./adapters/routes/songs_routes");
 // import meditation routing

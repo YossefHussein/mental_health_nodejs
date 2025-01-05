@@ -9,7 +9,7 @@ class GetAdviceByMood extends UseCaseInterFace {
 
   async execute(mood) {
     const adviceData = await this.adviceRepository.getAdviceByMood(mood);
-    return new Meditation({ text: adviceData });
+    return new Meditation(adviceData);
   }
 }
 
