@@ -16,7 +16,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 // app port
 const PORT = process.env.PORT;
-// make middleware from routing
+// make middleware and routing
 app.use("/meditation", meditationRouter);
 app.use("/songs", songRouter);
 // run the app
