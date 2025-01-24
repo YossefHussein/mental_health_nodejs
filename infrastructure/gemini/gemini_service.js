@@ -21,7 +21,7 @@ class GeminiService extends QuotesRepository {
                            {
                             "advice": "specific advice or exercises based on the user"s mood",
                             }
-                            return the json only without using keyword json and \`\`\`json`;
+                            return the json only without using keyword json and \`\`\`json  {"advice" : " content"}\`\`\` just return raw advice`;
 
     // adding the advice or prompt to model mean create the
     // content of gemini and return to user by [generateContent]
