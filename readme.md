@@ -9,3 +9,14 @@ some technology
 * express
 * Gemini
 
+<br>
+
+```
+Gemini_API_KEY=YourGeminiApiKey
+PORT=YourPort
+pgUser=YourPostgresUser
+pgPassword=YourPassword
+pgHost=YourPostgresHost
+pgPort=YourPostgresPort
+pgDataBase=YourPostgresNameOfDatabase
+```

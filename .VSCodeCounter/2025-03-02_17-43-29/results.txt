@@ -1,0 +1,72 @@
+Date : 2025-03-02 17:43:29
+Directory : c:\Users\victor\AndroidStudioProjects\mental_health_nodejs
+Total : 28 files,  2038 codes, 73 comments, 68 blanks, all 2179 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JSON       |          2 |      1,364 |          0 |          2 |      1,366 |
+| XML        |          5 |        390 |          0 |          0 |        390 |
+| JavaScript |         20 |        277 |         73 |         61 |        411 |
+| Markdown   |          1 |          7 |          0 |          5 |         12 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                             | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                |         28 |      2,038 |         73 |         68 |      2,179 |
+| . (Files)                                                                                                        |          4 |      1,387 |         11 |          8 |      1,406 |
+| .idea                                                                                                            |          5 |        390 |          0 |          0 |        390 |
+| .idea (Files)                                                                                                    |          4 |         28 |          0 |          0 |         28 |
+| .idea\caches                                                                                                     |          1 |        362 |          0 |          0 |        362 |
+| adapters                                                                                                         |          6 |         69 |          9 |         23 |        101 |
+| adapters\controllers                                                                                             |          3 |         53 |          9 |          9 |         71 |
+| adapters\routes                                                                                                  |          3 |         16 |          0 |         14 |         30 |
+| application                                                                                                      |          6 |         85 |         25 |         18 |        128 |
+| application\interfaces                                                                                           |          2 |         15 |          6 |          4 |         25 |
+| application\use-cases                                                                                            |          4 |         70 |         19 |         14 |        103 |
+| domain                                                                                                           |          3 |         50 |          2 |          6 |         58 |
+| domain\entities                                                                                                  |          3 |         50 |          2 |          6 |         58 |
+| infrastructure                                                                                                   |          4 |         57 |         26 |         13 |         96 |
+| infrastructure\db                                                                                                |          3 |         25 |         11 |          8 |         44 |
+| infrastructure\db (Files)                                                                                        |          1 |         13 |          5 |          2 |         20 |
+| infrastructure\db\query                                                                                          |          2 |         12 |          6 |          6 |         24 |
+| infrastructure\gemini                                                                                            |          1 |         32 |         15 |          5 |         52 |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                         | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\.idea\caches\deviceStreaming.xml                      | XML        |        362 |          0 |          0 |        362 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\.idea\mental_health_nodejs.iml                        | XML        |          9 |          0 |          0 |          9 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\.idea\misc.xml                                        | XML        |          5 |          0 |          0 |          5 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\.idea\modules.xml                                     | XML        |          8 |          0 |          0 |          8 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\.idea\vcs.xml                                         | XML        |          6 |          0 |          0 |          6 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\adapters\controllers\meditation_classes_controller.js | JavaScript |         13 |          0 |          2 |         15 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\adapters\controllers\meditation_controller.js         | JavaScript |         27 |          9 |          4 |         40 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\adapters\controllers\song_controller.js               | JavaScript |         13 |          0 |          3 |         16 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\adapters\routes\meditation_classes_routes.js          | JavaScript |          5 |          0 |          5 |         10 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\adapters\routes\meditation_routes.js                  | JavaScript |          6 |          0 |          4 |         10 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\adapters\routes\songs_routes.js                       | JavaScript |          5 |          0 |          5 |         10 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\app.js                                                | JavaScript |         16 |         11 |          1 |         28 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\application\interfaces\quotes_repository.js           | JavaScript |          9 |          4 |          2 |         15 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\application\interfaces\use_case_interface.js          | JavaScript |          6 |          2 |          2 |         10 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\application\use-cases\get_advice_by_mood.js           | JavaScript |         13 |          0 |          4 |         17 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\application\use-cases\get_daily_quotes.js             | JavaScript |         13 |          3 |          4 |         20 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\application\use-cases\get_meditation_class.js         | JavaScript |         23 |          8 |          3 |         34 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\application\use-cases\get_songs.js                    | JavaScript |         21 |          8 |          3 |         32 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\domain\entities\meditation.js                         | JavaScript |          6 |          1 |          2 |          9 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\domain\entities\meditation_class.js                   | JavaScript |         24 |          0 |          2 |         26 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\domain\entities\song.js                               | JavaScript |         20 |          1 |          2 |         23 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\infrastructure\db\index.js                            | JavaScript |         13 |          5 |          2 |         20 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\infrastructure\db\query\meditation_query.js           | JavaScript |          6 |          3 |          3 |         12 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\infrastructure\db\query\song_query.js                 | JavaScript |          6 |          3 |          3 |         12 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\infrastructure\gemini\gemini_service.js               | JavaScript |         32 |         15 |          5 |         52 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\package-lock.json                                     | JSON       |      1,342 |          0 |          1 |      1,343 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\package.json                                          | JSON       |         22 |          0 |          1 |         23 |
+| c:\Users\victor\AndroidStudioProjects\mental_health_nodejs\readme.md                                             | Markdown   |          7 |          0 |          5 |         12 |
+| Total                                                                                                            |            |      2,038 |         73 |         68 |      2,179 |
++------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
