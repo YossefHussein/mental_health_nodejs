@@ -11,9 +11,10 @@ some technology
 
 <br>
 
+make file `.env` and write these values
 ```
 Gemini_API_KEY=YourGeminiApiKey
-PORT=YourPort
+PORT=YourPostgresPort
 pgUser=YourPostgresUser
 pgPassword=YourPassword
 pgHost=YourPostgresHost
